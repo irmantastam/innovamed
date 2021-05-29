@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tadasm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-23 10:06+0000\n"
-"PO-Revision-Date: 2021-05-29 10:43+0000\n"
+"PO-Revision-Date: 2021-05-29 14:38+0000\n"
 "Last-Translator: \n"
 "Language-Team: Lietuvių kalba\n"
 "Language: lt_LT\n"
@@ -37,7 +37,7 @@ msgstr "Apie"
 msgid "Add comment"
 msgstr "Rašyti komentarą"
 
-#: functions.php:62
+#: functions.php:57
 msgid "Add widgets here to appear in your sidebar."
 msgstr "Pridėkite valdiklius čia, kurie atsiras jūsų šoninėje juostoje."
 
@@ -64,6 +64,14 @@ msgstr "Komentarai neleidžiami"
 #. Name of the template
 msgid "Front Page"
 msgstr "Pradžios puslapis"
+
+#: footer.php:3
+msgid "innovamed.lt 2021"
+msgstr "innovamed.lt 2021"
+
+#. Name of the theme
+msgid "innovamed/innovamed/src"
+msgstr "innovamed/innovamed/src"
 
 #: index.php:5
 msgid "Latest posts"
@@ -99,7 +107,7 @@ msgstr "Parašė"
 msgid "Return home?"
 msgstr "Grįžti namo?"
 
-#: functions.php:60
+#: functions.php:55
 msgid "Sidebar"
 msgstr "Šoninė juosta"
 
@@ -107,18 +115,10 @@ msgstr "Šoninė juosta"
 msgid "Sorry, nothing to display."
 msgstr "Atsiprašome, nėra ką parodyti"
 
-#: footer.php:3
-msgid "tadasm.lt 2021"
-msgstr "tadasm.lt 2021"
-
-#. Name of the theme
-msgid "tadasm/tadasm/src"
-msgstr "tadasm/tadasm/src"
-
 #: tag.php:5
 msgid "Tag Archive: "
 msgstr "Žymų archyvas"
 
-#: functions.php:26
+#: functions.php:21
 msgid "Top Menu"
 msgstr "Viršutinis meniu"

@@ -36,7 +36,7 @@
               class="hero-image__image"
               src="<?php echo $heroImage; ?>"
               alt="<?php echo $heroText; ?>"
-              title="<?php _e('Physiotherapist Tadas Mikelionis', 'tadasm'); ?>"
+              title="<?php _e('Physiotherapist Tadas Mikelionis', 'innovamed'); ?>"
             />
           <?php endif; ?>
           <h2 class="hero-image__text">
@@ -57,7 +57,7 @@
           <img
             src="<?php echo $greetingPhoto; ?>"
             alt="<?php echo $greetingLabel; ?>"
-            title="<?php _e('Physiotherapist Tadas Mikelionis', 'tadasm'); ?>"
+            title="<?php _e('Physiotherapist Tadas Mikelionis', 'innovamed'); ?>"
           />
         </div>
         <div class="greeting__text">

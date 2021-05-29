@@ -5,7 +5,7 @@
  *
  * @return void
  */
-function tadasm_setup() {
+function innovamed_setup() {
 	// Support programmable title tag.
 	add_theme_support( 'title-tag' );
 
@@ -13,48 +13,48 @@ function tadasm_setup() {
 	add_theme_support( 'custom-logo' );
 
 	// Make theme available for translation.
-	load_theme_textdomain( 'tadasm', get_template_directory() . '/languages' );
+	load_theme_textdomain( 'innovamed', get_template_directory() . '/languages' );
 
 	// Register top menu.
 	register_nav_menus(
 		array(
-			'top' => esc_html__( 'Top Menu', 'tadasm' ),
+			'top' => esc_html__( 'Top Menu', 'innovamed' ),
 		)
 	);
 }
-add_action( 'after_setup_theme', 'tadasm_setup' );
+add_action( 'after_setup_theme', 'innovamed_setup' );
 
 /**
  * Specify JS bundle path.
  *
  * @return void
  */
-function tadasm_load_scripts() {
+function innovamed_load_scripts() {
 	wp_enqueue_script( 'main', get_template_directory_uri() . '/../dist/bundle.js' );
 }
-add_action( 'wp_enqueue_scripts', 'tadasm_load_scripts' );
+add_action( 'wp_enqueue_scripts', 'innovamed_load_scripts' );
 
 /**
  * Specify CSS bundle path.
  *
  * @return void
  */
-function tadasm_load_styles() {
+function innovamed_load_styles() {
 	wp_enqueue_style( 'main', get_template_directory_uri() . '/../dist/bundle.css' );
 }
-add_action( 'wp_enqueue_scripts', 'tadasm_load_styles' );
+add_action( 'wp_enqueue_scripts', 'innovamed_load_styles' );
 
 /**
  * Register widget area.
  *
  * @return void
  */
-function tadasm_widgets_init() {
+function innovamed_widgets_init() {
 	register_sidebar(
 		array(
-			'name'          => esc_html__( 'Sidebar', 'tadasm' ),
+			'name'          => esc_html__( 'Sidebar', 'innovamed' ),
 			'id'            => 'sidebar-1',
-			'description'   => esc_html__( 'Add widgets here to appear in your sidebar.', 'tadasm' ),
+			'description'   => esc_html__( 'Add widgets here to appear in your sidebar.', 'innovamed' ),
 			'before_widget' => '<section id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</section>',
 			'before_title'  => '<h2 class="widget-title">',
@@ -62,6 +62,6 @@ function tadasm_widgets_init() {
 		)
 	);
 }
-add_action( 'widgets_init', 'tadasm_widgets_init' );
+add_action( 'widgets_init', 'innovamed_widgets_init' );
 
 ?>

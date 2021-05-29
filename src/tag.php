@@ -2,7 +2,7 @@
 
   <main role="main" aria-label="Content">
     <section>
-      <h1><?php esc_html_e('Tag Archive: ', 'tadasm'); echo single_tag_title('', false); ?></h1>
+      <h1><?php esc_html_e('Tag Archive: ', 'innovamed'); echo single_tag_title('', false); ?></h1>
       <?php get_template_part('loop'); ?>
       <?php get_template_part('pagination'); ?>
     </section>

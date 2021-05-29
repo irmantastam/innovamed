@@ -1,9 +1,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: tadasm\n"
+"Project-Id-Version: innovamed\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-29 10:42+0000\n"
+"POT-Creation-Date: 2021-05-29 14:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.5.2; wp-5.7.2\n"
-"X-Domain: tadasm"
+"X-Domain: innovamed"
 
 #: loop.php:18
 msgid "% Comments"
@@ -37,7 +37,7 @@ msgstr ""
 msgid "Add comment"
 msgstr ""
 
-#: functions.php:62
+#: functions.php:57
 msgid "Add widgets here to appear in your sidebar."
 msgstr ""
 
@@ -63,6 +63,14 @@ msgstr ""
 
 #. Name of the template
 msgid "Front Page"
+msgstr ""
+
+#: footer.php:3
+msgid "innovamed.lt 2021"
+msgstr ""
+
+#. Name of the theme
+msgid "innovamed/innovamed/src"
 msgstr ""
 
 #: index.php:5
@@ -97,7 +105,7 @@ msgstr ""
 msgid "Return home?"
 msgstr ""
 
-#: functions.php:60
+#: functions.php:55
 msgid "Sidebar"
 msgstr ""
 
@@ -105,18 +113,10 @@ msgstr ""
 msgid "Sorry, nothing to display."
 msgstr ""
 
-#: footer.php:3
-msgid "tadasm.lt 2021"
-msgstr ""
-
-#. Name of the theme
-msgid "tadasm/tadasm/src"
-msgstr ""
-
 #: tag.php:5
 msgid "Tag Archive: "
 msgstr ""
 
-#: functions.php:26
+#: functions.php:21
 msgid "Top Menu"
 msgstr ""

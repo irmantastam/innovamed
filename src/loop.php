@@ -14,12 +14,12 @@
         <?php the_date(); ?> <?php the_time(); ?>
       </time>
     </span>
-    <span class="author"><?php _e('by', 'tadasm'); ?> <?php the_author_posts_link(); ?></span>
-    <span class="comments"><?php if (comments_open( get_the_ID() ) ) comments_popup_link( __('Add comment', 'tadasm'), __('1 Comment', 'tadasm'), __('% Comments', 'tadasm')); ?></span>
+    <span class="author"><?php _e('by', 'innovamed'); ?> <?php the_author_posts_link(); ?></span>
+    <span class="comments"><?php if (comments_open( get_the_ID() ) ) comments_popup_link( __('Add comment', 'innovamed'), __('1 Comment', 'innovamed'), __('% Comments', 'innovamed')); ?></span>
   </article>
 <?php endwhile; ?>
 <?php else: ?>
   <article>
-    <h2><?php _e('Sorry, nothing to display.', 'tadasm'); ?></h2>
+    <h2><?php _e('Sorry, nothing to display.', 'innovamed'); ?></h2>
   </article>
 <?php endif; ?>
