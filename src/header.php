@@ -2,6 +2,7 @@
 <html <?php language_attributes(); ?>>
   <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
+    <meta name="google-site-verification" content="LfVKa8mZ2WC4oKwjc6rxmSViPpjU-ZP9GsANYJBRZbc" />
     <link rel="apple-touch-icon" sizes="180x180" href="/wp-content/themes/innovamed/src/assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/wp-content/themes/innovamed/src/assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/wp-content/themes/innovamed/src/assets/favicon/favicon-16x16.png">
