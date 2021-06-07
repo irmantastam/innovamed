@@ -2,19 +2,11 @@
   margin: 0 -20px;
   overflow: hidden;
   position: relative;
-  height: 450px;
   margin-bottom: 20px;
-
-  @media screen and (min-width: 768px) {
-    margin: 0 -40px;
-    margin-bottom: 50px;
-  }
 
   &__image,
   &__video {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+    vertical-align: top;
   }
 
   &__text {
@@ -36,6 +28,19 @@
       width: auto;
       max-width: 580px;
       font-size: 38px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    height: 450px;
+    margin: 0 -40px;
+    margin-bottom: 50px;
+
+    &__image,
+    &__video {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
     }
   }
 }
