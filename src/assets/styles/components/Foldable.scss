@@ -1,0 +1,56 @@
+.Foldable {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid $color--mediumgrey;
+
+  &__title {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0 20px;
+    cursor: pointer;
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 10px;
+      height: 1px;
+      background-color: $color--darkgrey;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      right: 4px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 1px;
+      height: 10px;
+      background-color: $color--darkgrey;
+      transition: height 0.3s ease;
+    }
+  }
+
+  &__description {
+    overflow: hidden;
+    max-height: 0;
+    margin: 0;
+    transition: max-height 0.3s ease;
+  }
+
+  &--open {
+    .Foldable__title {
+      &::after {
+        height: 0;
+      }
+    }
+
+    .Foldable__description {
+      max-height: 200px;
+    }
+  }
+}
