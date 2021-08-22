@@ -8,10 +8,12 @@
 // Base.
 @import './base/base';
 
+// Acf templates.
+@import './acf-templates/greeting';
+@import './acf-templates/hero-image';
+
 // Components.
+@import './components/foldable';
 @import './components/footer';
-@import './components/greeting';
 @import './components/header';
-@import './components/hero-image';
 @import './components/social-links';
-@import './components/Foldable';

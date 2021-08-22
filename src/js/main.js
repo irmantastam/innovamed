@@ -1,8 +1,8 @@
 // Components.
-import Foldable from './foldable/Foldable';
+import foldable from './foldable/foldable';
 
 const main = () => {
-  Foldable();
+  foldable();
 };
 
 document.addEventListener('DOMContentLoaded', () => main());
