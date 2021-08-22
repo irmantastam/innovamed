@@ -33,6 +33,11 @@
       background-color: $color--darkgrey;
       transition: height 0.3s ease;
     }
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
   }
 
   &__description {
