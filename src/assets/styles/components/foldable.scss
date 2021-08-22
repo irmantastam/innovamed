@@ -43,13 +43,13 @@
   }
 
   &--open {
-    .Foldable__title {
+    .foldable__title {
       &::after {
         height: 0;
       }
     }
 
-    .Foldable__description {
+    .foldable__description {
       max-height: 200px;
     }
   }
