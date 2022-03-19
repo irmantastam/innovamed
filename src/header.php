@@ -22,7 +22,7 @@
         <div class="inner">
           <div class="header__logo logo">
             <a href="<?php echo home_url(); ?>">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/innovamed_logo.jpeg" alt="Logo" class="logo__image">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/innovamed_logo--with-text.jpg" alt="Logo" class="logo__image">
             </a>
           </div>
           <nav class="nav" role="navigation">
