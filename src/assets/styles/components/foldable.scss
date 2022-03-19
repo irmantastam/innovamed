@@ -59,7 +59,7 @@
     }
 
     .foldable__description {
-      animation: delay-overflow 0.6s;
+      animation: delay-overflow 1s;
       max-height: 400px;
       overflow-y: auto;
     }
@@ -67,5 +67,11 @@
 
   @keyframes delay-overflow {
     from { overflow-y: hidden; }
+  }
+
+  @media screen and (min-width: 768px) {
+    &--open .foldable__description {
+      max-height: 999px;
+    }
   }
 }
